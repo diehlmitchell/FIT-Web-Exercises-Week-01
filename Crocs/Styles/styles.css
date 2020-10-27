@@ -1,0 +1,29 @@
+
+.image-selection{
+    background-color: black;
+    width: 300px;
+    height: auto;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.image-selection > img{
+  width: 300px;
+  height: 260px;
+  border: 20px;
+  
+}
+
+
+body{
+    background-color:white;
+}
+
+
+.footer-css{
+    background-color:black;
+    text-align: center;
+    margin: 20px;
+    
+}
