@@ -12,17 +12,65 @@
   width: 300px;
   height: 260px;
   border: 20px;
-  
 }
-
 
 body{
     background-color:white;
 }
-
 
 .footer-css{
     background-color:black;
     text-align: center;
     margin: 20px;
 }
+
+.navbar-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    /* margin: 20px; */
+    position: sticky;
+    top: 0px;
+    z-index: 20;
+}
+
+.our-view-grid{
+    grid-row:2;
+    display: grid;
+    grid-template-columns:1fr 38%;
+    grid-template-rows:auto;
+    border-bottom: solid black;
+    background-image: linear-gradient(Gray, white);
+}
+
+.our-view{
+    border-right:1px solid black ;
+    width: 80%;
+}
+.our-view > h1{
+    font-weight: bold;
+    font-size: 200px;
+    color: black;
+}
+
+.our-view-text{
+    /* grid-column: 1; */
+    /* grid-row: 2; */
+    text-align: center;
+    display: grid;
+    margin-right: 30%;
+}
+
+.our-view-text > h2{
+font-size: 40px;
+font-weight: bold;
+color: black;
+}
+
+
+
+
